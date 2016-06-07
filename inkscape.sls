@@ -13,3 +13,12 @@ inkscape:
     msiexec: True
     locale: en_US
     reboot: False    
+  '0.48.5':
+    full_name: 'Inkscape 0.48.5'
+    installer: 'https://inkscape.global.ssl.fastly.net/media/sourceforge/files/0.48.5/Inkscape-0.48.5-1-win32.exe'
+    uninstaller: 'https://inkscape.global.ssl.fastly.net/media/sourceforge/files/0.48.5/Inkscape-0.48.5-1-win32.exe'
+    install_flags: '/S /norestart'
+    uninstall_flags: '/S /norestart'
+    msiexec: False
+    locale: en_US
+    reboot: False    
