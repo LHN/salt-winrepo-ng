@@ -9,7 +9,7 @@ modsecurity:
     full_name: 'ModSecurity 2.9.1'
     installer: 'https://www.modsecurity.org/tarball/2.9.1/ModSecurityIIS_2.9.1-32b.msi'
     {% endif %}
-    install_flags: '/S /desktopicon=yes /quicklaunchicon=yes'
+    install_flags: '/S'
     uninstaller: '{{ PROGRAM_FILES }}\ModSecurity\uninstall.exe'
     uninstall_flags: '/S'
     msiexec: False
