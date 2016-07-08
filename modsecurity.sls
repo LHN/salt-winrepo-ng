@@ -12,6 +12,6 @@ modsecurity:
     install_flags: '/quiet /qn /norestart'
     uninstaller: '{{ PROGRAM_FILES }}\ModSecurity\uninstall.exe'
     uninstall_flags: '/uninstall /norestart'
-    msiexec: False
+    msiexec: True
     locale: en_US
     reboot: False
